@@ -1,0 +1,468 @@
+{% include "sitio/cabecera.html" %}
+
+
+<style>
+    /* Estilo básico para el espaciado entre secciones */
+    .separacion {
+        margin-top: 40px;
+    }
+
+
+
+    .nombres li {
+        margin-bottom: 5px;
+    }
+
+    /* Asegura que los videos ocupen todo el ancho de su columna */
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Ajustar márgenes y padding de las columnas */
+    .col-md-8, .col-md-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* Centrando texto en el eje Y (ajusta el valor del margin-top según sea necesario) */
+    .col-md-4 h2,
+    .col-md-4 .informacion-container {
+        margin-top: 30px; /* Ajusta este valor para mover el texto hacia abajo */
+    }
+</style>
+
+
+<!-- Daddy / Eyibra -->
+<div class="container separacion">
+    <div class="row">
+        <!-- Columna de Texto -->
+        <div class="col-md-4">
+            <h2 class="titulo-principal">Laboratorio Arte Alameda</h2>
+            <div class="informacion-container">
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h2 class="titulo-secundario">daddy</h2>
+                        <ul class="nombres">
+                            <li>Eyibra</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Columna del Video -->
+        <div class="col-md-8">
+            <div class="card">
+                <video class="card-img-top img-fluid" controls style="border-radius: 0;">
+                    <source src="{{ url_for('static', filename='video/BW_CUADRADO_24_FPS_TOMA_SANGRE.mp4') }}" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- 316 Centro -->
+<div class="container separacion">
+    <div class="row">
+        <!-- Columna del Video -->
+        <div class="col-md-8">
+            <div class="card">
+                <video class="card-img-top img-fluid" controls style="border-radius: 0;">
+                    <source src="{{ url_for('static', filename='video/316.mp4') }}" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+
+        <!-- Columna de Texto -->
+        <div class="col-md-4">
+            <h2 class="titulo-principal">316 Centro</h2>
+            <div class="informacion-container">
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h2 class="titulo-secundario">ensamble</h2>
+                        <ul class="nombres">
+                            <li>arturo capur</li>
+                            <li>andrés guadarrama</li>
+                            <li>ángel florido</li>
+                            <li>ana rodríguez</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Vernacular -->
+<div class="container separacion">
+    <div class="row">
+        <!-- Columna de Texto -->
+        <div class="col-md-4">
+            <h2 class="titulo-principal">Vernacular</h2>
+            <div class="informacion-container">
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h2 class="titulo-secundario">ensamble</h2>
+                        <ul class="nombres">
+                            <li>arturo capur</li>
+                            <li>andrés guadarrama</li>
+                            <li>ángel florido</li>
+                            <li>emiliano lópez</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Columna del Video -->
+        <div class="col-md-8">
+            <div class="card">
+                <video class="card-img-top img-fluid" controls style="border-radius: 0;">
+                    <source src="{{ url_for('static', filename='video/vernacular.mp4') }}" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Arbol que nace retorcido -->
+<div class="container separacion">
+    <div class="row">
+        <!-- Columna del Video -->
+        <div class="col-md-8">
+            <div class="card">
+                <video class="card-img-top img-fluid" controls style="border-radius: 0;">
+                    <source src="{{ url_for('static', filename='video/Rumores Arturo.mov') }}" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+
+        <!-- Columna de Texto -->
+        <div class="col-md-4">
+            <h2 class="titulo-principal">Árbol que nace retorcido</h2>
+            <div class="informacion-container">
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h2 class="titulo-secundario">rumores</h2>
+                        <ul class="nombres">
+                            <li>arturo capur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Laboratorio Arte Alameda / Muxx -->
+<div class="container separacion">
+    <div class="row">
+        <!-- Columna de Texto -->
+        <div class="col-md-4">
+            <h2 class="titulo-principal">Laboratorio Arte Alameda</h2>
+            <div class="informacion-container">
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h2 class="titulo-secundario">amniosis</h2>
+                        <ul class="nombres2">
+                            <li>amniosis is a five channel video that uses portraits of the members of MUXX filmed underwater, trasmutated with diverse creatures and species using artificial intelligence (AI), alluding to primordial, celestial, and aquatic times before gender and biological sex existed. The sound design of the nave in AMNIOSIS reminds us of the pre-natal womb.</li>
+                            <li>Five-channel back projection generated with artificial intelligence (AI)</li>
+                            <li>Production: Laboratorio Arte Alameda | Instituto Nacional de Bellas Artes y Literatura | Secretaría de Cultura</li>
+                            <li>Video Performance: Muxx Project</li>
+                            <li>AI Programming: Oldo Errevet</li>
+                            <li>Sound Design: Nnux | Eyibra</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Columna del Carrusel de Videos -->
+        <div class="col-md-8">
+            <div id="carouselVideos" class="carousel slide">
+                <!-- Indicadores/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselVideos" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#carouselVideos" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselVideos" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carouselVideos" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carouselVideos" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#carouselVideos" data-bs-slide-to="5"></button>
+                </div>
+
+                <!-- El slideshow/carrusel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <video class="card-img-top img-fluid" controls style="border-radius: 0;">
+                                <source src="{{ url_for('static', filename='video/a_AMNIOSIS_Cinco.mp4') }}" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <video class="card-img-top img-fluid" controls style="border-radius: 0;">
+                                <source src="{{ url_for('static', filename='video/b_AMNIOSIS_Cinco.mp4') }}" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <video class="card-img-top img-fluid" controls style="border-radius: 0;">
+                                <source src="{{ url_for('static', filename='video/c_AMNIOSIS_Cinco.mp4') }}" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <video class="card-img-top img-fluid" controls style="border-radius: 0;">
+                                <source src="{{ url_for('static', filename='video/d_AMNIOSIS_Cinco.mp4') }}" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <video class="card-img-top img-fluid" controls style="border-radius: 0;">
+                                <source src="{{ url_for('static', filename='video/e_AMNIOSIS_Cinco.mp4') }}" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <video class="card-img-top img-fluid" controls style="border-radius: 0;">
+                                <source src="{{ url_for('static', filename='video/f_AMNIOSIS_Cinco.mp4') }}" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controles izquierdo y derecho -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselVideos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselVideos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        /* Asegura que los controles del carrusel estén en su posición original */
+        .carousel-control-prev,
+        .carousel-control-next {
+            position: absolute; /* Mantiene la posición absoluta de los controles */
+            top: 50%; /* Centra los botones verticalmente */
+            transform: translateY(-50%); /* Ajusta el posicionamiento para centrar correctamente */
+        }
+    
+        .carousel-control-prev {
+            left: 10px; /* Espacio desde el borde izquierdo */
+        }
+    
+        .carousel-control-next {
+            right: 10px; /* Espacio desde el borde derecho */
+        }
+    </style>
+
+    <script>
+        // Pausar el video cuando se cambia de slide
+        document.querySelectorAll('#carouselVideos .carousel-item video').forEach(video => {
+            video.addEventListener('pause', () => {
+                video.currentTime = 0; // Reinicia el tiempo del video si se pausa
+            });
+        });
+    
+        $('#carouselVideos').on('slide.bs.carousel', function () {
+            const videos = document.querySelectorAll('#carouselVideos .carousel-item video');
+            videos.forEach(video => {
+                video.pause(); // Pausa todos los videos
+            });
+        });
+    </script>
+    
+</div>
+
+
+<!-- Munavi -->
+
+<!-- Carousel y descripcion -->
+<div class="container separacion">
+    <div class="row">
+        <!-- Columna del Carrusel -->
+        <div class="col-md-12">
+            <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2"></button>
+                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="3"></button>
+                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="4"></button>
+                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="5"></button>
+                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="6"></button>
+                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="7"></button>
+                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="8"></button>
+                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="9"></button>
+                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="10"></button>
+                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="11"></button>
+                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="12"></button>
+                  <button type="button" data-bs-target="#carousel2" data-bs-slide-to="13"></button>
+                </div>
+                
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/carousel/0.jpg') }}" alt="0" class="d-block img-fluid" style="width:100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/carousel/1.jpg') }}" alt="1" class="d-block img-fluid" style="width:100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/carousel/2.jpg') }}" alt="2" class="d-block img-fluid" style="width:100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/carousel/3.jpg') }}" alt="3" class="d-block img-fluid" style="width:100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/carousel/4.jpg') }}" alt="4" class="d-block img-fluid" style="width:100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/carousel/5.jpg') }}" alt="5" class="d-block img-fluid" style="width:100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/carousel/6.jpg') }}" alt="6" class="d-block img-fluid" style="width:100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/carousel/7.jpg') }}" alt="7" class="d-block img-fluid" style="width:100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/carousel/8.jpg') }}" alt="8" class="d-block img-fluid" style="width:100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/carousel/9.jpg') }}" alt="9" class="d-block img-fluid" style="width:100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/carousel/10.jpg') }}" alt="10" class="d-block img-fluid" style="width:100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/carousel/11.jpg') }}" alt="11" class="d-block img-fluid" style="width:100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/carousel/12.jpg') }}" alt="12" class="d-block img-fluid" style="width:100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/carousel/13.jpg') }}" alt="13" class="d-block img-fluid" style="width:100%">
+                  </div>
+                </div>
+                
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+    
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+    
+            </div>
+        </div>
+    </div>
+
+    <div class="container separacion">
+        <div class="row">
+            <!-- Columna de Texto -->
+            <div class="col-md-12">
+                <h1 class="titulo-principal">Munavi</h1>
+                <div class="informacion-container">
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <h2 class="titulo-secundario">a jugar. espacios de juego en unidades habitacionales</h2>
+                            <ul class="nombres">
+                                <li>Para las infancias, el juego es una de las principales causas de felicidad. Es un ejercicio creativo que se da en un espacio y tiempo abiertos a la invención libre y la diversión voluntaria. Jugar estimula la imaginación y el entendimiento, nos perdemos y nos encontramos de nuevo en un gozo que parece infinito.
+                                    La creación de áreas e infraestructuras adecuadas para esta actividad es fundamental. México cuenta con una rica tradición de espacios para el juego en jardines y plazas equipadas con mobiliario
+                                    para el juego infantil.
+                                    La segunda mitad del siglo XX se caracteriza por llevar las áreas de juego a una nueva tipologia de vivienda: las unidades habitacionales; estos conjuntos comparten un espacio y una arquitectura e incluyen servicios públicos esenciales: comercios, clínicas u hospitales y escuelas, así como
+                                    espacios de juego y recreación.
+                                    A jugar contiene bocetos, planos, fotografías, videos y maquetas que muestran la relevancia de los espacios de juego creados por profesionales de la arquitectura, el diseño y el arte que colaboraron para crear áreas seguras y libres para niñas y niños en distintas unidades habitacionales.
+                                    La exposición esta estructurada en tres núcleos: el primero revisa proyectos emblemáticos que integraron las áreas de juego desde su proyecto original, desde el Centro Urbano Presidente Alemán
+                                    en 1949, a la Unidad Iztacalco, en 1973.
+                                    El segundo está enfocado en el mobiliario urbano que se ha replicado en distintos conjuntos habitacionales y que, en algunos casos, continúa utilizándose por las infancias. Destacan especialmente las piezas desarrolladas durante las décadas de los años setenta y ochenta.
+                                    Por último, se presenta una selección de proyectos contemporáneos de intervención y recuperación de espacios comunes en distintas unidades habitacionales cuyo deterioro por el paso del tiempo, los desastres naturales y el descuido afectaron las condiciones de habitabilidad y convivencia vecinal.
+                                    A lo largo de la muestra se ofrecen experiencias de mediación encaminadas a generar reflexiones en torno a estos espacios públicos donde diversos grupos convergen.
+                                    Entendemos los espacios de juego como sitios de apropiación individual y colectiva, en los que se conforman los valores, la toma de decisiones y se construye la ciudadanía. El derecho al juego es primordial para la vivienda adecuada, porque detona el desarrollo infantil a partir de la socialización y la creación de comunidad. r</li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+
+<div class="container separacion">
+    <div class="row no-gutters"> <!-- Se usa no-gutters para eliminar los espacios entre las columnas -->
+        <!-- Primera columna: Imagen -->
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top munavi-img" src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/1.jpg') }}" alt="Imagen 1" />
+            </div>
+        </div>
+
+        <!-- Segunda columna: Imagen -->
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top munavi-img" src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/2.jpg') }}" alt="Imagen 2" />
+            </div>
+        </div>
+
+        <!-- Tercer columna: Imagen -->
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top munavi-img" src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/3.jpg') }}" alt="Imagen 3" />
+            </div>
+        </div>
+    </div>
+
+
+    
+</div>
+
+
+ <!-- Pilares -->
+
+    <div class="container separacion"> 
+        <div class="row">
+        <!-- Primera columna: Imagen -->
+        <div class="col-md-6">
+            <div class="card">
+                <img class="card-img-top" src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/4.jpg') }}" alt="Imagen 1" />
+            </div>
+            </div>
+
+        <!-- Segunda columna: Imagen -->
+        <div class="col-md-6">
+            <div class="card">
+                <img class="card-img-top" src="{{ url_for('static', filename='fotos/_port/exp/munavi a jugar/8dd.jpg') }}" alt="Imagen 2" />
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+{% include "sitio/pie.html" %}

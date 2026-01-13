@@ -1,0 +1,24 @@
+</div>
+       <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script>
+            // Espera a que el documento esté completamente cargado
+            document.addEventListener("DOMContentLoaded", function () {
+                // Selecciona todos los elementos de video
+                const videos = document.querySelectorAll("video");
+                
+                // Establece el volumen de cada video al 10%
+                videos.forEach(video => {
+                    video.volume = 0.1; // 0.1 es el 10%
+                });
+            });
+        </script>
+    
+    </body>
+</html>
+

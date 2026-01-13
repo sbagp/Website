@@ -1,0 +1,294 @@
+{% include "sitio/cabecera.html" %}
+
+
+<!-- 1 American Eagle-->
+<div class="container separacion">
+    <div class="row">
+        <!-- Primera columna: Imagen -->
+        <div class="col-md-6">
+            <div class="card">
+                <img class="card-img-top" src="{{ url_for('static', filename='fotos/_port/com/ae/_img/Still 2024-10-08 185115_1.6.1.png') }}" alt="Imagen 1" />
+            </div>
+        </div>
+
+        <!-- Otra fila con dos imágenes adicionales (opcional) -->
+        <div class="col-md-6">
+            <div class="card">
+                <img class="card-img-top" src="{{ url_for('static', filename='fotos/_port/com/ae/_img/Still 2024-10-08 184731_1.4.1.png') }}" alt="Imagen 2" />
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4"> 
+        <!-- Primera columna: Video -->
+        <div class="col-md-6">
+            <div class="card">
+                <video class="card-img-top img-fluid" controls style="border-radius: 0;">
+                    <source src="{{ url_for('static', filename='video/_ae_pride_2023.mp4') }}" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+        <!-- Segunda columna: Imagen -->
+        <div class="col-md-6">
+            <div class="card">
+                <img class="card-img-top" src="{{ url_for('static', filename='fotos/_port/com/ae/_img/Still 2024-10-08 184805_1.10.1.png') }}" alt="Imagen 3" style="border-radius: 0;" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Título estático -->
+    <div class="text-center mt-4">
+        <h2 id="titulo" style="font-size: 30px; font-family: 'Abel', sans-serif;"></h2>
+    </div>
+</div>
+
+
+<!-- 2 Walmart-->
+<div class="container separacion">
+    <div class="row">
+        <!-- Primera columna: Imagen -->
+        <div class="col-md-6">
+            <div class="card">
+                <img class="card-img-top" src="{{ url_for('static', filename='fotos/_port/com/walmart/_img/a_Untitled_1.6.1.png') }}" alt="Imagen 1" />
+            </div>
+        </div>
+
+        <!-- Otra fila con dos imágenes adicionales (opcional) -->
+        <div class="col-md-6">
+            <div class="card">
+                <img class="card-img-top" src="{{ url_for('static', filename='fotos/_port/com/walmart/_img/b_Untitled_1.7.2.jpg') }}" alt="Imagen 1" />
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <!-- Primera columna: Imagen (anteriormente el video) -->
+        <div class="col-md-6">
+            <div class="card">
+                <img class="card-img-top" src="{{ url_for('static', filename='fotos/_port/com/walmart/_img/c_Untitled_1.9.1.jpg') }}" alt="Imagen 1" />
+            </div>
+        </div>
+
+        <!-- Segunda columna: Video (anteriormente la imagen) -->
+        <div class="col-md-6">
+            <div class="card">
+                <video class="card-img-top img-fluid" controls style="border-radius: 0;">
+                    <source src="{{ url_for('static', filename='video/') }}" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!-- Título estático -->
+    <div class="text-center mt-4">
+        <h2 id="titulo" style="font-size: 30px; font-family: 'Abel', sans-serif;"></h2>
+    </div>
+</div>
+
+
+<!--Separacion Adicional-->
+<div class="container separacion separacion-reducida">
+    <div class="row">
+        <!-- Aquí puedes agregar más contenido si lo deseas -->
+    </div>
+</div>
+
+
+<!-- CAROUSEL -->
+<div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="4"></button>
+      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="5"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{ url_for('static', filename='fotos/_port/com/la esperanza/_img/a-31032021-611A2091.jpg') }}" alt="0" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ url_for('static', filename='fotos/_port/com/la esperanza/_img/b-611A1066-Editar.jpg') }}" alt="1" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ url_for('static', filename='fotos/_port/com/la esperanza/_img/c-611A1535-Editar.jpg') }}" alt="2" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ url_for('static', filename='fotos/_port/com/la esperanza/_img/d-611A8819-Editar.jpg') }}" alt="3" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ url_for('static', filename='fotos/_port/com/la esperanza/_img/e-611A1576-Editar.jpg') }}" alt="4" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ url_for('static', filename='fotos/_port/com/la esperanza/_img/g-31032021-611A2034.jpg') }}" alt="5" class="d-block" style="width:100%">
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+    <div class="container separacion separacion-reducida">
+      <div class="row">
+          <!-- Aquí puedes agregar más contenido si lo deseas -->
+      </div>
+  </div>
+
+</div>
+
+
+<!-- 3 A-->
+<div class="container separacion">
+  <div class="row">
+      <!-- Primera columna: Imagen -->
+      <div class="col-md-6">
+          <div class="card">
+              <img class="card-img-top" src="{{ url_for('static', filename='fotos/_port/com/aeromexico/_img/a_Untitled_1.2.2.png') }}" alt="Imagen 1" />
+          </div>
+      </div>
+
+      <!-- Otra fila con dos imágenes adicionales (opcional) -->
+      <div class="col-md-6">
+          <div class="card">
+              <img class="card-img-top" src="{{ url_for('static', filename='fotos/_port/com/aeromexico/_img/b_Untitled_1.2.6.png') }}" alt="Imagen 1" />
+          </div>
+      </div>
+  </div>
+
+  <div class="row mt-4">
+      <!-- Primera columna: Imagen (anteriormente el video) -->
+      <div class="col-md-6">
+          <div class="card">
+              <img class="card-img-top" src="{{ url_for('static', filename='fotos/_port/com/aeromexico/_img/c_Untitled_1.2.3.png') }}" alt="Imagen 1" />
+          </div>
+      </div>
+
+      <!-- Segunda columna: Video (anteriormente la imagen) -->
+      <div class="col-md-6">
+          <div class="card">
+              <video class="card-img-top img-fluid" controls style="border-radius: 0;">
+                  <source src="{{ url_for('static', filename='video/Destino_ Libertad.mp4') }}" type="video/mp4">
+                  Tu navegador no soporta el elemento de video.
+              </video>
+          </div>
+      </div>
+  </div>
+
+  <!-- Título estático -->
+  <div class="text-center mt-4">
+      <h2 id="titulo" style="font-size: 30px; font-family: 'Abel', sans-serif;"></h2>
+  </div>
+</div>
+
+
+<!-- 4 L-->
+<div class="container separacion">
+    <div class="row">
+        <!-- Primera columna: Imagen -->
+        <div class="col-md-6">
+            <div class="card">
+                <img class="card-img-top" src="{{ url_for('static', filename='fotos/_port/com/la casa de los arboles/_img/611A8693-Mejorado-NR.png') }}" alt="Imagen 1" />
+            </div>
+        </div>
+
+        <!-- Otra fila con dos imágenes adicionales (opcional) -->
+        <div class="col-md-6">
+            <div class="card">
+                <img class="card-img-top" src="{{ url_for('static', filename='fotos/_port/com/la casa de los arboles/_img/611A0341-Mejorado-NR.png') }}" alt="Imagen 2" />
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4"> 
+        <!-- Primera columna: Video -->
+        <div class="col-md-6">
+            <div class="card">
+                <video class="card-img-top img-fluid" controls style="border-radius: 0;">
+                    <source src="{{ url_for('static', filename='video/Performance Hacienda.mp4') }}" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+        <!-- Segunda columna: Imagen -->
+        <div class="col-md-6">
+            <div class="card">
+              <img class="card-img-top" src="{{ url_for('static', filename='fotos/_port/com/la casa de los arboles/_img/611A8396-Mejorado-NR.png') }}" alt="Imagen 3" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Título estático -->
+    <div class="text-center mt-4">
+        <h2 id="titulo" style="font-size: 30px; font-family: 'Abel', sans-serif;"></h2>
+    </div>
+</div>
+
+
+<!--Separacion Adicional-->
+<div class="container separacion separacion-reducida">
+    <div class="row">
+        <!-- Aquí puedes agregar más contenido si lo deseas -->
+    </div>
+</div>
+
+
+<!-- CAROUSEL 2-->
+<div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="4"></button>
+      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="5"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{ url_for('static', filename='fotos/_port/com/jokr/_img/a_611A0200-Editar.jpg') }}" alt="0" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ url_for('static', filename='fotos/_port/com/jokr/_img/b_611A9936-Editar.jpg') }}" alt="1" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ url_for('static', filename='fotos/_port/com/jokr/_img/c_611A0080-Editar.jpg') }}" alt="2" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ url_for('static', filename='fotos/_port/com/jokr/_img/d_611A0149-Editar.jpg') }}" alt="3" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ url_for('static', filename='fotos/_port/com/jokr/_img/e_611A1144-Editar.jpg') }}" alt="4" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ url_for('static', filename='fotos/_port/com/jokr/_img/f_611A9971-Editar.jpg') }}" alt="5" class="d-block" style="width:100%">
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+</div>
+
+
+{% include "sitio/pie.html" %}

@@ -1,0 +1,197 @@
+{% include "sitio/cabecera.html" %}
+
+
+
+
+<div class="container separacion">
+
+    <!-- Primera fila -->
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/1.png" alt="Imagen 1" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/2.png" alt="Imagen 2" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/3.png" alt="Imagen 3" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/4.png" alt="Imagen 4" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Segunda fila -->
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/5.png" alt="Imagen 5" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/6.png" alt="Imagen 6" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/7.png" alt="Imagen 7" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/8.png" alt="Imagen 8" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Tercera fila -->
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/9.png" alt="Imagen 9" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/10.png" alt="Imagen 10" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/11.png" alt="Imagen 11" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/12.png" alt="Imagen 12" />
+            </div>
+        </div>
+    </div>
+    
+     <!-- Cuarta fila -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/13.png" alt="Imagen 13" />
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/14.png" alt="Imagen 14" />
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/15.png" alt="Imagen 15" />
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="/static/fotos/_port/Personal_Contact/16.png" alt="Imagen 16" />
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    
+    
+    <style>
+        .separacion .card {
+            margin-bottom: 1px; /* Espacio entre las filas */
+        }
+    
+        .card-img-top {
+            max-width: 100%;
+            height: auto; /* Mantener la proporción de la imagen */
+            object-fit: cover;
+        }
+    
+        .row {
+            margin-bottom: 1px; /* Espacio entre las filas */
+        }
+    
+        .col-md-3 {
+            padding: 2px; /* Espaciado entre las columnas */
+        }
+    </style>
+
+</div>
+
+
+
+
+
+
+
+
+<style>
+    body {}
+    * {box-sizing: border-box;}
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #ffffff;
+      padding: 20px;
+    }
+    </style>
+    
+
+    
+    <div class="container">
+        <h3>Contact</h3>
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+{% include "sitio/pie.html" %}

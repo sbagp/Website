@@ -1,0 +1,83 @@
+/* Aplica la tipografía "Abel" a todo el cuerpo del documento */
+body {
+    font-family: 'Abel';
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Navbar/
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    padding: 20px;
+}
+
+/* Estilo para los enlaces de la navegación */
+.navbar-nav .nav-link {
+    font-size: 18px; /* Tamaño del texto para los enlaces generales */
+    color: #333; /* Color del texto */
+    margin-left: 15px;
+    transition: color 0.3s ease; /* Transición suave al pasar el cursor */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* Cambiar color al pasar el cursor */
+}
+
+/* Estilo específico para el enlace 'home' */
+.navbar-nav .home {
+    font-weight: bold; /* Negrita para el enlace 'home' */
+    margin-right: 30px; /* Separación con los demás elementos */
+    font-size: 30px; /* Tamaño de texto específico para 'home' */
+    padding: 10px 15px; /* Espaciado interno específico para 'home' */
+}
+
+/* Estilo para los demás enlaces */
+.navbar-nav .nav-link:not(.home) {
+    font-size: 24px; /* Tamaño del texto para otros enlaces */
+}
+
+/* Estilo para la separación en la parte superior de los contenedores */
+.container {
+    padding-top: 20px; /* Espacio superior para el contenido */
+}
+
+
+
+/* Expo.html */
+
+.nombres {
+    font-size: 20px; /* Cambia este valor para ajustar el tamaño */
+}
+.nombres {
+    list-style-type: none; /* Elimina las viñetas de la lista */
+    padding-left: 0; /* Elimina el padding izquierdo */
+    margin: 0; /* Elimina el margen */
+}
+.nombres li {
+    margin-top: 18px; /* O usa padding-bottom según prefieras */
+    margin-bottom: 5px; /* O usa padding-bottom según prefieras */
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.nombres2 {
+    font-size: 20px; /* Cambia este valor para ajustar el tamaño */
+}
+.nombres2 {
+    list-style-type: none; /* Elimina las viñetas de la lista */
+    padding-left: 0; /* Elimina el padding izquierdo */
+    margin: 0; /* Elimina el margen */
+}
+.nombres2 li {
+    margin-top: 40px; /* O usa padding-bottom según prefieras */
+    margin-bottom: 25px; /* O usa padding-bottom según prefieras */
+}
+
+
+
+
+
+/*Personal | Contact/*
